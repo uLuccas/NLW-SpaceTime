@@ -1,8 +1,8 @@
-import { Button } from "@/components/Button";
-
 export default function Home() {
-  return <h1>Opa tteste
-
-    <Button />
-  </h1>;
+  return (
+    <main className="grid min-h-screen grid-cols-2">
+      <div></div>
+      <div></div>
+    </main>
+  );
 }
