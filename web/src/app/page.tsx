@@ -1,7 +1,7 @@
 import { User } from "lucide-react";
-import Image from 'next/image'
+import Image from "next/image";
 
-import nlwLogo from '../assets/nlw-spacetime-logo.svg'
+import nlwLogo from "../assets/nlw-spacetime-logo.svg";
 
 export default function Home() {
   return (
@@ -25,9 +25,7 @@ export default function Home() {
           </p>
         </a>
 
-<Image src={nlwLogo} alt="NLW SPACE TIME LOGO" />
-
-
+        <Image src={nlwLogo} alt="NLW SPACE TIME LOGO" />
       </div>
 
       {/* Direita */}
